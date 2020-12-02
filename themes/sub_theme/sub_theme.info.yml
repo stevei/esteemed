@@ -1,0 +1,21 @@
+name: Sub-theme
+type: theme
+base theme: base_theme
+
+description: The sub-theme of the base-theme.
+package: custom
+core_version_requirement: ^8.8 || ^9
+
+libraries:
+  - subt_theme/base
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+
+version: '8.x-3.0'

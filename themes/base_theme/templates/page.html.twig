@@ -1,0 +1,22 @@
+<header class="header">
+  {{ page.primary_nav }}
+  {{ page.tactical_nav }}
+  {{ page.secondary_nav }}
+</header>
+<main class="page" id="main-content">
+  <!-- REGION: Breadcrumb -->
+  {{ page.breadcrumb }}
+  <!-- /REGION: Breadcrumb -->
+  <div class="main">
+    <div class="main__sidebar">
+      {{ page.sub_nav }}
+    </div>
+    <div class="main__content">
+      <div class="container--messages">
+        {{ page.messages }}
+      </div>
+      {{ page.content }}
+    </div>
+  </div>
+</main>
+{{ page.footer }}
